@@ -1,4 +1,4 @@
-/*
+/*p = n
 Find the largest palindrome made from the product of two 3-digit numbers.
 */
 
@@ -21,5 +21,8 @@ func main() {
 			}
 			if p == 0 || n > p { p = n }
 		}
-	} 
+	}
+
+	fmt.Println(p);
+	
 }
